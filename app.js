@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
-const User = require('./controllers/userController.js')
-const Post = require('./controllers/postController.js')
+const User = require('./controllers/usercontroller.js')
+const Post = require('./controllers/postcontroller.js')
 
 
 
