@@ -6,6 +6,7 @@ const Post = require('./controllers/postController.js')
 
 
 const app = express()
+console.log("begining...")
 
 // middleware
 
