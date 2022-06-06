@@ -8,7 +8,7 @@ const sequelize = new Sequelize(
     dbConfig.PASSWORD, {
         host: dbConfig.HOST,        
         operatorsAliases: false,
-
+        dialect: dbConfig.dialect,
         pool: {
             max: dbConfig.pool.max,
             min: dbConfig.pool.min,
